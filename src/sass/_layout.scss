@@ -1,0 +1,40 @@
+.mobile-menu-toggle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  padding-left: 30px;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $mmBlack;
+    position: absolute;
+    top: 9px;
+    left: 0;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 2px;
+    background-color: $mmBlack;
+    position: absolute;
+    top: 15px;
+    left: 8px;
+  }
+}
+
+.mobile-menu {
+  background-color: $mmGreyLite;
+  position: fixed;
+  top: 120px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}

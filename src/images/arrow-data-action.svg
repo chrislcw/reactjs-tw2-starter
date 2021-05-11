@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="8px" viewBox="0 0 15 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy</title>
+    <g id="Dash-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3" transform="translate(-1209.000000, -408.000000)" stroke="#101010">
+            <g id="Group-Copy" transform="translate(1209.742188, 408.599609)">
+                <polyline id="Path-Copy-2" transform="translate(11.080078, 3.596680) rotate(-90.000000) translate(-11.080078, -3.596680) " points="7.88671875 2 11.0800781 5.19335938 14.2734375 2"></polyline>
+                <line x1="12.6767578" y1="3.59667969" x2="5.48887108e-14" y2="3.59667969" id="Path-2"></line>
+            </g>
+        </g>
+    </g>
+</svg>

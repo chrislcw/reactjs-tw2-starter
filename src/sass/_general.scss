@@ -1,0 +1,27 @@
+.site-logo {
+  width: 90px;
+
+  @media screen and (min-width: $screenLG) {
+    width: 140px;
+  }
+}
+
+.spinner {
+  @apply fixed top-0 left-0 w-full h-full flex items-center justify-center;
+  z-index: 999999;
+  background: rgba(255, 255, 255, 0.5);
+
+  .loader {
+    color: "#444444";
+    font-size: 90px;
+    text-indent: -9999em;
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin: 72px auto;
+    position: relative;
+    transform: translateZ(0);
+    animation: loadAnim 1.7s infinite ease, roundAnim 1.7s infinite ease;
+  }
+}
